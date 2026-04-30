@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
+//to enable scheduling
 @EnableScheduling
 public class SpringCloudSchedulerServiceApplication {
 
