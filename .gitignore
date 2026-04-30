@@ -48,3 +48,8 @@ build/
 ### VS Code ###
 .vscode/
 /.metadata/
+
+/SpringCloudConfigServer/src/main/resources/application.properties
+
+D:\java files\Microservices\Gitconfigforconfigserver
+
