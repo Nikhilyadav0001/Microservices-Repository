@@ -8,6 +8,6 @@ public class ConsumerApp {
 
 	@JmsListener(destination = "${my.app.desti-name}")
 	public void readData(String data) {
-		System.out.println("Consumer :: "+data);
+		System.out.println("Consumer 2:: "+data);
 	}	
 }

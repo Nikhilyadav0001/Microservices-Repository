@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>nikhil</groupId>
-	<artifactId>SpringConsumerApp-MQ</artifactId>
+	<artifactId>SpringConsumerApp1-MQ</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>SpringConsumerApp-MQ</name>
 	<description/>
