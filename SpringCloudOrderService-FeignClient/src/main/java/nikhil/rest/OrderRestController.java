@@ -19,6 +19,7 @@ public class OrderRestController {
 
 	@Value("${server.port}")
 	private String portNo;
+	
 	@Autowired
 	private ICartConsumer consumer;
 	
@@ -35,7 +36,7 @@ public class OrderRestController {
 		String cartResponse = consumer.getCartInfo().getBody();
 		return ResponseEntity.ok("ORDER PLACED WITH => "+cartResponse);
 	}
-	
+
 	/*
 	 * METHOD  : GET
 	 * PATH    : /fetch
@@ -53,8 +54,7 @@ public class OrderRestController {
 		return ResponseEntity.ok("PORT NO OF ORDER IS :: "+portNo +"   ORDER WITH CART DATA => " 
 				+ cob  );
 	}
-	
-	
+
 	/*
 	 * METHOD  : POST
 	 * PATH    : /addToCart
@@ -71,10 +71,5 @@ public class OrderRestController {
 		cartResp = consumer.addCartDetails(cart).getBody();
 		return ResponseEntity.ok("ORDER WITH => " + cartResp);
 	}
-	
-	
-	
-	
-	
-	
+
 }
